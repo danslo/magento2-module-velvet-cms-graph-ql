@@ -13,7 +13,9 @@
     <virtualType name="Danslo\VelvetCmsGraphQl\Model\GraphQl\TableReader\CmsBlock" type="Danslo\VelvetGraphQl\Model\GraphQl\TableReader">
         <arguments>
             <argument name="schemaType" xsi:type="string">VelvetCmsBlock</argument>
-            <argument name="tableName" xsi:type="string">cms_block</argument>
+            <argument name="tableNames" xsi:type="array">
+                <item name="cms_block" xsi:type="string">cms_block</item>
+            </argument>
             <argument name="nullableInputFields" xsi:type="array">
                 <item name="creation_time" xsi:type="string">creation_time</item>
                 <item name="update_time" xsi:type="string">update_time</item>
@@ -24,7 +26,9 @@
     <virtualType name="Danslo\VelvetCmsGraphQl\Model\GraphQl\TableReader\CmsPage" type="Danslo\VelvetGraphQl\Model\GraphQl\TableReader">
         <arguments>
             <argument name="schemaType" xsi:type="string">VelvetCmsPage</argument>
-            <argument name="tableName" xsi:type="string">cms_page</argument>
+            <argument name="tableNames" xsi:type="array">
+                <item name="cms_page" xsi:type="string">cms_page</item>
+            </argument>
             <argument name="nullableInputFields" xsi:type="array">
                 <item name="creation_time" xsi:type="string">creation_time</item>
                 <item name="update_time" xsi:type="string">update_time</item>
